@@ -42,3 +42,4 @@ r=50
 cv2.circle(canvas, (centerX, centerY), r, white,2)
 cv2.imshow("Canvas", canvas)
 cv2.waitKey(0)
+cv2.destroyAllWindows()
